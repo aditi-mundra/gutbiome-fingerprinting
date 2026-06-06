@@ -79,26 +79,27 @@ gutbiome-fingerprinting/
 └── requirements.txt            # Package dependencies 
 ```
 
-##🛠️ Local Setup & Execution
-1. Prerequisites
+## 🛠️ Local Setup & Execution
+**1. Prerequisites :**
 Ensure you have Python 3.10+ installed.
 
-2. Environment Configuration
+**2. Environment Configuration**
 Clone this repository, initialize a local virtual environment, and install the required dependencies:
 
 Bash
-# Initialize Virtual Environment
+#Initialize Virtual Environment
 python -m venv venv
 
-# Activate Environment (Windows PowerShell)
+#Activate Environment (Windows PowerShell)
 .\venv\Scripts\Activate.ps1
 
-# Activate Environment (Mac/Linux)
+#Activate Environment (Mac/Linux)
 source venv/bin/activate
 
-# Install Core Framework Libraries
+#Install Core Framework Libraries
 pip install -r requirements.txt
-3. Execution
+
+**3. Execution**
 To run the complete machine learning pipeline from data ingestion to artifact generation, execute train.py as a module from the root directory:
 
 Bash
