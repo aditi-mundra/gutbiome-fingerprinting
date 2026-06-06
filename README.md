@@ -1,8 +1,8 @@
 # Gutbiome Fingerprinting Platform
 
-An advanced, unsupervised machine learning pipeline designed to discover microbial communities, generate individual microbiome fingerprints, calculate diversity/novelty metrics, and build population similarity networks from stool sample abundance data.
+An advanced, unsupervised machine learning pipeline designed to discover microbial communities, generate individual microbiome fingerprints, calculate diversity metrics, and build population similarity networks from stool sample abundance data.
 
-This project focuses entirely on data discovery, pattern extraction, and population analytics without making clinical or medical predictions.
+This project focuses entirely on data discovery, pattern extraction, and population analytics.
 
 ---
 
@@ -76,7 +76,8 @@ gutbiome-fingerprinting/
 ├── models/                     # (Ignored by Git) Saved joblib artifacts
 ├── .gitignore                  # Keeps heavy data and environments out of git
 ├── README.md                   # Project documentation
-└── requirements.txt            # Package dependencies
+└── requirements.txt            # Package dependencies 
+```
 
 ##🛠️ Local Setup & Execution
 1. Prerequisites
