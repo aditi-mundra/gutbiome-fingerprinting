@@ -1,0 +1,14 @@
+# Environments and caches
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# Ignore ALL contents inside the data folder (raw, processed, and results)
+data/
+
+# Ignore all trained model files
+models/*.joblib
+
+# Ignore generated analysis figures (Optional, but recommended)
+docs/figures/
